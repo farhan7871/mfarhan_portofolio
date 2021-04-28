@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.container-2{
+    max-width: 1220px;
+    margin: auto;
+    padding: 2rem 1.8rem;
+}
+
+.h-100{
+    width: 100%;
+    align-items: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.mr-1{
+    margin-right: rem;
+}
+
+
+h1{
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-size: 3em;
+    color: #ffffff;
+}
+
+h4{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+h5{
+    font-size: 20px;
+    color: #FF9543;
+    font-weight: 800;
+}
+
+
+.btn{
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary{
+    text-decoration: none;
+    background-color: #FF9543;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #c25d11;
+}
+
+.btn-secondary{
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    color: white;
+    margin-left: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-secondary:hover{
+    background-color: #ebebeb1a;
+    border-color: white;
+}
+
+.btn-view{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FF9543;
+    padding: 0.4rem 1rem;
+    font-size: 14px;
+    color: white;
+    border-radius: 40px;
+    margin-top: 120px;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+
+nav{
+    width: 100%;
+    background-color: #030504;
+    font-size: 1.1em;
+}
+
+nav .nav-content{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+nav ul.left{
+    display: flex;
+}
+
+
+nav ul.left li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav ul.right{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding-top: 2.4rem;
+}
+
+nav ul.right li{
+    display: inline;
+    margin-right: 4rem;
+
+}
+
+nav ul.right li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+nav ul li a:hover{
+    color: #FF9543;
+    transition: 0.25s;
+    border-bottom: 3px solid #FF9543;
+    bottom: 5px;
+    border-radius: 2px;
+}
+
+nav ul.nav-icon img{
+    display: none;
+    width: 8%;
+    margin-top: 2.3rem;
+}
+
+nav ul.navbar-responsive{
+    display: none;
+}
+
+#home .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home{
+    background-color: #030504;
+    width: 100%;
+}
+
+#home .container{
+    background-color: #030504;
+    display: flex;
+}
+
+
+#home p{
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#home .introduce-1{
+    position: relative;
+}
+
+#home .introduce-1 h1{
+    font-size: 80px;
+}
+
+#home .button-introduce{
+    margin-top: 2rem;
+}
+
+#myskill{
+    background-color: #1B1717;
+}
+
+.list-skill{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem ;
+    gap: 3rem;
+}
+
+.kotak-skill1{
+    height: 224px;
+    width: 224px;
+    border: 2px solid #FFFFFF;
+}
+
+.kotak-skill1 img{
+    margin: auto;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+
+.kotak-skill1 p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#myportofolio{
+    background-color: #1B1717;
+}
+
+#myportofolio .container{
+    background-color: #1B1717;
+}
+
+ul.myportofolio-list {
+    margin-top: 1.5rem;
+}
+
+ul.myportofolio-list li {
+    list-style: none;
+    display: inline;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+ul.myportofolio-list .active{
+    color: #FF9543;
+    border: 2px solid #FF9543;
+    padding: 0.7rem 1rem;
+    border-radius: 42px;
+}
+
+
+ul.myportofolio-list li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.portofolio-kotak{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: -2rem;
+}
+
+.portofolio-item{
+    display: flex;
+    width: 280px;
+    background-color: #F8F8F8;
+    margin-top: 5rem; 
+    border-radius: 4px;
+    padding-bottom: 1rem;
+}
+
+.portofolio-item h3{
+    padding: 10px;
+}
+
+
+.portofolio-desc img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+#myblog{
+    background-color: #030504;
+}
+
+.kotak-blog{
+    max-width: 16rem;
+    margin-top: 5rem;
+}
+
+.kotak-blog img{
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#myblog .list-kotak-blog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#myblog .kotak-blog h3{
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+#myblog .kotak-blog p{
+    margin-top: 1rem;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#mycontact{
+    background-color: #030504;
+
+}
+
+#mycontact .profil{
+    display: flex;
+}
+
+#mycontact .profil .img-profil img{
+    width: 100%;
+    border: 4px solid #ffffff;
+    border-radius: 4px;
+}
+
+#mycontact .description-profil{
+    color: #FFFFFF;
+    margin-left: 2rem;
+    max-width: 40rem;
+    /* border: 2px solid white; */
+}
+
+#mycontact .description-profil p{
+    margin-top: 2rem;
+}
+
+#mycontact .description-profil img.kutip-2{
+    position: absolute;
+    left: 65rem;
+    margin-top:t 2rem;
+}
+
+aside .profil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media-list{
+    margin-top: 6rem;
+    margin-right: 4rem;
+    display: flex;
+}
+
+.kotak-profil{
+    background-size: cover;
+    background-image: url('../assets/img-profil/card-profil.png');
+    height: 300px;
+    padding: 2rem;
+}
+
+.title-profil{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.title-profil h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.title-profil p{
+    color: #FFFFFF;
+}
+
+.foto-profil{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.profil-farhan{
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    height: 100%;
+    width: auto;
+}
+
+.btn-follow{
+    margin-top: 25px;
+}
+
+.btn-follow a{
+    text-decoration: none;
+    background-color: #FF9543;
+    padding: 0.7rem 0.9rem;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.btn-follow a:hover{
+    background-color: #ff6f00;
+}
+
+.assets-profil img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+img.kutipatas{
+    margin-top:10px;
+}
+
+img.kutipbawah{
+    margin-top:40px;
+    margin-left: 600px;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    gap: 0.4rem;
+}
+
+footer{
+    background-color: #1B1717;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width:1000px){
+    
+    .text-center{
+    text-align: center;
+    }
+    
+    header{
+        position: fixed;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    header nav{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding-bottom: 1rem;
+    }
+
+    .container{
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 12px;
+        
+    }
+    
+    nav ul.left{
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    nav ul.right{
+        display: none;
+    }
+
+
+    nav ul.right li a{
+        margin-top: 20px;
+    }
+
+    nav ul.burger{
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul.burger li img{
+        cursor: pointer;
+    }
+
+    nav .nav-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul.navbar-responsive{
+        display: none;
+        flex-direction: column;
+        text-align: center;      
+    }
+
+    nav ul.navbar-responsive li a:after{
+        font-weight: 800;
+    }
+
+    nav ul.navbar-responsive.show{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: max-height 0.25s ease-out; 
+    }
+
+    nav ul.navbar-responsive li a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #home .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    #home .left{
+        margin-top: 10rem;
+        flex: 1;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-skill{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+
+    #home .introduce-1{
+        text-align: center;
+        position: static;
+    }
+
+    #home .introduce-1 h1{
+        font-size: 52px;
+    }
+
+    #home .button-introduce{
+        text-align: center;
+    }
+    
+
+    #myskill .list-skill{
+        margin-top: 1rem ;
+        gap: 1rem;
+    }
+
+    #myportofolio .myportofolio-list {
+        display: flex;    
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    
+    #myportofolio .portofolio-kotak{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 120px;
+        justify-content: center;
+
+    }
+
+    #myblog .list-kotak-blog{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    #mycontact .description-profil{
+        color: #FFFFFF;
+        max-width: 40rem;
+    }
+
+    #mycontact .profil{
+        display: flex;
+        justify-content: center;
+    }
+
+    #mycontact .description-profil{
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #mycontact .social-media{
+        display: flex;        
+        justify-content: center;
+    } 
+
+    #mycontact .profil .img-profil img{
+        width: 100%;
+
+    }
+
+    .foto-profil{
+        position: static;
+    }
+
+    img.kutipbawah{
+        margin-top:40px;
+        margin-left: 0px;
+    }
+
+    .social-media{
+        display: flex;
+        gap: 0.4rem;
+        margin-top: 2rem;
+        margin-right: 0;
+    }
+}
+
+@media (max-width:354px){
+    .btn-secondary{
+        margin-top: 1rem;
+        margin-left: 0px;
+    }
+
+    .kotak-profil{
+        height: 350px;
+        padding: 2rem;
+    }
+    
+    .title-profil{
+        text-align: center;
+    }
+    
+    .title-profil h3{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .title-profil p{
+        color: #FFFFFF;
+    }
+    
+    .btn-follow{
+        margin-top: 25px;
+    }
+    
+    .btn-follow a{
+        text-decoration: none;
+        background-color: #FF9543;
+        padding: 0.7rem 0.9rem;
+        border-radius: 4px;
+        color: #FFFFFF;
+    }
+    
+    .assets-profil img{
+        width: 100%;
+        border-radius: 4px;
+    }
+}
